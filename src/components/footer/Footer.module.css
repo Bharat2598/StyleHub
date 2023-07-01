@@ -1,0 +1,18 @@
+body {
+  position: relative;
+  margin-bottom: 8rem; /* Adjust this value to match the height of the footer */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--dark-blue);
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
